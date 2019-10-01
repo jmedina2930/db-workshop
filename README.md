@@ -32,8 +32,11 @@ Clave primaria (tipoDocumento, documentoAlumno, idAsignatura, numero, año_semes
 1.  Hallar el grupo de cada materia que más estudiantes tiene matriculados en cada semestre que se ha cursado.
 2.  Hallar el documento y nombre de los alumnos que han perdido tres o más veces la misma materia.
 3.  Hallar el documento y nombre de los alumnos, materia (id), grupo, año, semestre que han sacado una nota mayor al promedio de su grupo en cada semestre cursado.
-4.  Incrementar en 0.5 la nota de los estudiantes que han cursado solo una materia durante el semestre 2018-II.
+4.  Incrementar en 0.5 la nota de los estudiantes que han cursado solo una materia durante el semestre 2018-II. (3 filas actualizadas)
 5.  Obtener el número de documento y el nombre de los profesores que han dictado cursos que ningún estudiante ha perdido.    
-6.  Obtener el nombre y los créditos de las materias que se han dictado en todos los semestres y siempre ha habido por lo menos un estudiante matriculado… algo así materias tales que no existe un semestre donde no exista un estudiante matriculado.    
-7.  Obtener el nombre de los estudiantes que nunca han perdido materias.    
-8.  Obtener el id de las asignaturas que en ningún semestre han tenido más de 10 estudiantes matriculados por grupo.
+6.  Obtener el nombre y los créditos de las materias que se han dictado en todos los semestres y siempre ha habido por lo menos un estudiante matriculado.      
+7.  Obtener el id de las asignaturas que en ningún semestre han tenido más de 3 estudiantes matriculados por grupo.
+
+Revisar los resultados de cada punto en la carpeta ```resultados```
+
+Nota: Todos los puntos tienen el mismo valor.
