@@ -16,7 +16,7 @@ INSERT INTO ALUMNO VALUES ('CC', 12234, 'Yohana Palermo', 'Medellin');
 INSERT INTO PROFESOR VALUES ('CC', 9760, 'Freddy Duitama', 'Phd');
 INSERT INTO PROFESOR VALUES ('CC', 99086, 'Viviana Cobaleda', 'Phd');
 INSERT INTO PROFESOR VALUES ('CC', 1454230, 'Juan Camilo Alzate', 'Msc');
-INSERT INTO PROFESOR VALUES ('CC', 1012034, 'Jonathan Medina', 'Especializacion');
+INSERT INTO PROFESOR VALUES ('CC', 1012034, 'Jonathan Medina', 'pregrado');
 
 -- Semestre inserts
 INSERT INTO SEMESTRE VALUES (2018, 1, TO_DATE('15/01/2018', 'dd/mm/yyyy'), TO_DATE('15/06/2018', 'dd/mm/yyyy'));
