@@ -1,9 +1,2 @@
-SELECT tipo_Documento, documento, nombre
-FROM alumno ext
-WHERE EXISTS (SELECT id_Asignatura
-                FROM Alumno_grupo
-                WHERE documento_Alumno = ext.documento
-                    AND tipo_Documento_alumno = ext.tipo_Documento
-                    AND nota < 3
-                GROUP BY id_Asignatura
-                HAVING COUNT(*) >= 3);
+SELECT * FROM Alumno_grupo
+ WHERE nota > 3.4 and ano_semestre = 2019;
